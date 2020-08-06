@@ -16,7 +16,7 @@ module.exports = {
       { text: 'About', link: '/about/' }
     ],
     footer: [
-      { text: 'Github', link: 'https://github.com/tolking' }
+      { text: 'Github', link: 'https://github.com/2f0833e717' }
     ]
   },
   plugins: [
