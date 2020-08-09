@@ -27,7 +27,7 @@
     "deploy-fix4": "git branch -D gh-pages",
     "deploy-fix5": "git checkout master",
     "deploy-dist": "npx gh-pages -d dist -b master",
-    "deploy": "npm run deploy-fix5 && npm run deploy-fix4 && npm run deploy-fix3 && npm run deploy-fix2 && npm run deploy-dist",
+    "deploy": "npm run deploy-fix5 && npm run deploy-fix4 && npm run deploy-fix3 && npm run deploy-fix2 && npm run deploy-dist && npm run deploy-fix5",
     "ga": "git add .",
     "gc": "git commit -m 'commit'",
     "gp": "git push origin master --force",
