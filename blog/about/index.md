@@ -7,7 +7,7 @@ layout: Page
 
 > This theme is for Vuepress 1.0
 
-Live Demo: [My Blog](https://example.com)
+Live Demo: [My Blog](https://2f0833e717.github.io/)
 
 Theme by [vuepress-theme-ououe](https://github.com/tolking/vuepress-theme-ououe)
 
