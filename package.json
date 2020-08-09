@@ -22,8 +22,11 @@
     "dev": "npm start",
     "build": "vuepress build blog",
     "deploy": "npx gh-pages -d dist -b master",
+    "ga": "git add .",
+    "gc": "git commit -m 'commit'",
     "gp": "git push origin master --force",
-    "deploy-push": "npm run deploy & npm run gp",
+    "gacp": "npm run ga && npm run gc && npm run gp",
+    "deploy-push": "npm run deploy & npm run gacp",
     "all": "npm run build && npm run deploy-push",
     "allb": "bash deploy.sh"
   },
