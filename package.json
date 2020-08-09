@@ -31,8 +31,8 @@
     "gl": "git log --all --graph --oneline",
     "grefl": "git reflog --all",
     "greset": "git reset --HARD @{2}",
-    "deploy-push": "npm run deploy && npm run gacp",
-    "all": "npm run deploy-push",
+    "deploy-push": "npm run gacp && npm run deploy",
+    "dep": "npm run deploy-push",
     "all": "npm run build && npm run deploy-push",
     "allb": "bash deploy.sh"
   },
