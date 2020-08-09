@@ -18,10 +18,11 @@
   ],
   "scripts": {
     "start": "vuepress dev blog",
-    "dev": "vuepress dev blog",
+    "dev": "npm start",
     "build": "vuepress build blog",
+    "dep": "npm run push",
     "deploy": "npx gh-pages -d dist -b master",
-    "push": "deploy.sh"
+    "push": "bash deploy.sh"
   },
   "dependencies": {
     "vuepress": "^1.2.0",
