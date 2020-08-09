@@ -20,9 +20,11 @@
     "start": "vuepress dev blog",
     "dev": "npm start",
     "build": "vuepress build blog",
-    "dep": "npm run push",
     "deploy": "npx gh-pages -d dist -b master",
-    "push": "bash deploy.sh"
+    "git-push-origin-master-force": "git push origin master --force",
+    "deploy-push": "run-p deploy git-push-origin-master-force",
+    "all": "run-s build deploy-push start",
+    "allb": "bash deploy.sh"
   },
   "dependencies": {
     "vuepress": "^1.2.0",
