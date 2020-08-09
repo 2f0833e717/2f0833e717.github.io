@@ -22,8 +22,8 @@
     "dev": "npm start",
     "build": "vuepress build blog",
     "deploy-fix": "git push -d origin gh-pages",
-    "deploy-dist": "npx gh-pages -d dist -b gh-pages",
-    "deploy": "npm run deploy-fix && npm run deploy-dist",
+    "deploy-dist": "npx gh-pages -d dist -b master",
+    "deploy": "npm run deploy-dist",
     "ga": "git add .",
     "gc": "git commit -m 'commit'",
     "gp": "git push origin master --force",
@@ -32,6 +32,7 @@
     "grefl": "git reflog --all",
     "greset": "git reset --HARD @{2}",
     "deploy-push": "npm run deploy && npm run gacp",
+    "all": "npm run deploy-push",
     "all": "npm run build && npm run deploy-push",
     "allb": "bash deploy.sh"
   },
