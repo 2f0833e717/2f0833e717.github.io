@@ -17,13 +17,14 @@
     "ououe"
   ],
   "scripts": {
+    "postinstall": "npm run start",
     "start": "vuepress dev blog",
     "dev": "npm start",
     "build": "vuepress build blog",
     "deploy": "npx gh-pages -d dist -b master",
     "git-push-origin-master-force": "git push origin master --force",
     "deploy-push": "npm run deploy & npm run git-push-origin-master-force",
-    "all": "npm run build && npm run deploy-push && npm start",
+    "all": "npm run build && npm run deploy-push",
     "allb": "bash deploy.sh"
   },
   "dependencies": {
