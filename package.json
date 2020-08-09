@@ -28,7 +28,10 @@
     "gc": "git commit -m 'commit'",
     "gp": "git push origin master --force",
     "gacp": "npm run ga && npm run gc && npm run gp",
-    "deploy-push": "npm run deploy & npm run gacp",
+    "gl": "git log --all --graph --oneline",
+    "grefl": "git reflog --all",
+    "greset": "git reset --HARD @{2}",
+    "deploy-push": "npm run deploy && npm run gacp",
     "all": "npm run build && npm run deploy-push",
     "allb": "bash deploy.sh"
   },
