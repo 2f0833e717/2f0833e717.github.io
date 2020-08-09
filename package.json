@@ -21,7 +21,7 @@
     "start": "vuepress dev blog",
     "dev": "npm start",
     "build": "vuepress build blog",
-    "deploy": "npx gh-pages -d dist -b master",
+    "deploy": "npx gh-pages -d dist -b gh-pages",
     "ga": "git add .",
     "gc": "git commit -m 'commit'",
     "gp": "git push origin master --force",
