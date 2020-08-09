@@ -22,8 +22,8 @@
     "dev": "npm start",
     "build": "vuepress build blog",
     "deploy": "npx gh-pages -d dist -b master",
-    "git-push-origin-master-force": "git push origin master --force",
-    "deploy-push": "npm run deploy & npm run git-push-origin-master-force",
+    "gp": "git push origin master --force",
+    "deploy-push": "npm run deploy & npm run gp",
     "all": "npm run build && npm run deploy-push",
     "allb": "bash deploy.sh"
   },
