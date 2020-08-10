@@ -23,12 +23,17 @@ https://github.com/2f0833e717/2f0833e717.github.io/tree/gh-pages
 
 # vuepress-theme-ououe-template
 [WebPage](https://2f0833e717.github.io./)
+
 [Documentation](https://tolking.github.io/vuepress-theme-ououe)
+
 Theme by [vuepress-theme-ououe](https://github.com/tolking/vuepress-theme-ououe)
+
 Power by [vuepress](https://github.com/vuejs/vuepress)
 
-``` bash
 # dev guide
+[cat package.json](https://github.com/2f0833e717/2f0833e717.github.io/blob/gh-pages/package.json)
+
+``` bash
 # git clone dev src
 $ git clone https://github.com/2f0833e717/2f0833e717.github.io.git -b gh-pages
 
@@ -38,18 +43,14 @@ $ git config --global user.email skinoshita202001082135@gmail.com
 $ git config --list
 
 # install dependencies
-$ npm i
-# or
 $ npm install
 
 # serve with hot reload at localhost:8080
-# (auto start setting => package.json => postinstall)
 $ npm start
-# or
-$ npm run dev
 # localhost:8080
 
 # build for production
+# (auto start setting => package.json => postinstall)
 $ npm run build
 
 # push for Github Pages
