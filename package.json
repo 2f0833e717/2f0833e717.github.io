@@ -13,8 +13,7 @@
     "vue",
     "vuepress",
     "theme",
-    "blog",
-    "ououe"
+    "blog"
   ],
   "scripts": {
     "----------------00-Special-scripts": "",
