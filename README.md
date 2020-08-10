@@ -1,24 +1,4 @@
-11
-
-# Github Pages Web site
-https://2f0833e717.github.io./
-
-# Github Pages Web site Build Src
-https://github.com/2f0833e717/2f0833e717.github.io/tree/gh-pages
-
-# Github Pages Web site Dev Src
-https://github.com/2f0833e717/2f0833e717.github.io/
-
-# vuepress-theme-ououe-template
-
-[WebPage](https://2f0833e717.github.io./)
-
-[Documentation](https://tolking.github.io/vuepress-theme-ououe)
-
-Theme by [vuepress-theme-ououe](https://github.com/tolking/vuepress-theme-ououe)
-
-Power by [vuepress](https://github.com/vuejs/vuepress)
-
+12
 
 ``` bash
 # quick start copy and paste
@@ -30,7 +10,24 @@ npm i
 # some development.(vscode)
 # vscode => push => github auth success.
 npm run all
+```
 
+# Github Pages Web site
+https://2f0833e717.github.io./
+
+# Github Pages Web site Build Src
+https://github.com/2f0833e717/2f0833e717.github.io/
+
+# Github Pages Web site Dev Src
+https://github.com/2f0833e717/2f0833e717.github.io/tree/gh-pages
+
+# vuepress-theme-ououe-template
+[WebPage](https://2f0833e717.github.io./)
+[Documentation](https://tolking.github.io/vuepress-theme-ououe)
+Theme by [vuepress-theme-ououe](https://github.com/tolking/vuepress-theme-ououe)
+Power by [vuepress](https://github.com/vuejs/vuepress)
+
+``` bash
 # dev guide
 # git clone dev src
 $ git clone https://github.com/2f0833e717/2f0833e717.github.io.git -b gh-pages
