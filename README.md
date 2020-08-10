@@ -31,7 +31,6 @@ $ npm run build
 
 # deploy for Github Pages
 $ npm run deploy
-```
 
 # build & push & deploy for Github Pages
 $ npm run all
