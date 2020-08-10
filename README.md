@@ -6,8 +6,15 @@ git config --global user.name "2f0833e717"
 git config --global user.email skinoshita202001082135@gmail.com
 npm i
 # some development.(vscode)
-# vscode => push => github auth success.
-git remote set-url origin git@github.com:2f0833e717/2f0833e717.github.io.git
+# vscode => push => github auth success.(https or ssh)
+# https auth
+#   vim ~/.netrc
+#   machine github.com
+#   login username
+#   password xxxxxxx
+#   :wq
+# ssh auth
+#   TBD:
 npm run all
 ```
 
