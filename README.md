@@ -1,7 +1,7 @@
 12
 
-``` bash
 # quick start copy and paste
+``` bash
 git clone https://github.com/2f0833e717/2f0833e717.github.io.git -b gh-pages
 cd 2f0833e717.github.io/
 git config --global user.name "2f0833e717"
@@ -14,11 +14,14 @@ npm run all
 
 # vue-blog
 
+The MIT License (MIT)
+Copyright 2020 2f0833e717 <skinoshita202001082135@gmail.com>
+
 [Github Pages Web site](https://2f0833e717.github.io./)
 
-[Github Pages Web site Build Src](https://github.com/2f0833e717/2f0833e717.github.io/)
+[Github Pages Web site Build Src] master branch. (https://github.com/2f0833e717/2f0833e717.github.io/)
 
-[Github Pages Web site Dev Src](https://github.com/2f0833e717/2f0833e717.github.io/tree/gh-pages)
+[Github Pages Web site Dev Src] gh-pages branch and this web site. (https://github.com/2f0833e717/2f0833e717.github.io/tree/gh-pages)
 
 [Documentation](https://tolking.github.io/vuepress-theme-ououe)
 
