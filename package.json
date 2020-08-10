@@ -42,6 +42,7 @@
     "gl": "git log -7 --graph --oneline",
     "gref": "git reflog --all",
     "greset": "git reset --HARD @{1}",
+    "gref": "git reflog --all",
     "all": "npm run build && npm run push && npm run deploy",
     "----------------04-alias": "",
     "a": "npm run all",
