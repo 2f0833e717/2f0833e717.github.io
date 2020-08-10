@@ -12,17 +12,13 @@ npm i
 npm run all
 ```
 
-# Github Pages Web site
-https://2f0833e717.github.io./
+# vue-blog
 
-# Github Pages Web site Build Src
-https://github.com/2f0833e717/2f0833e717.github.io/
+[Github Pages Web site](https://2f0833e717.github.io./)
 
-# Github Pages Web site Dev Src
-https://github.com/2f0833e717/2f0833e717.github.io/tree/gh-pages
+[Github Pages Web site Build Src](https://github.com/2f0833e717/2f0833e717.github.io/)
 
-# vuepress-theme-ououe-template
-[WebPage](https://2f0833e717.github.io./)
+[Github Pages Web site Dev Src](https://github.com/2f0833e717/2f0833e717.github.io/tree/gh-pages)
 
 [Documentation](https://tolking.github.io/vuepress-theme-ououe)
 
@@ -30,8 +26,9 @@ Theme by [vuepress-theme-ououe](https://github.com/tolking/vuepress-theme-ououe)
 
 Power by [vuepress](https://github.com/vuejs/vuepress)
 
-# dev guide
-[cat package.json](https://github.com/2f0833e717/2f0833e717.github.io/blob/gh-pages/package.json)
+# Development Guide (initial-develop-enviroment)
+
+You need to read "script" of [package.json](https://github.com/2f0833e717/2f0833e717.github.io/blob/gh-pages/package.json)
 
 ``` bash
 # git clone dev src
