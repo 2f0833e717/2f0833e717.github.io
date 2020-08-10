@@ -6,18 +6,17 @@ cd 2f0833e717.github.io/
 git config --list
 git config --global user.name "2f0833e717"
 git config --global user.email skinoshita202001082135@gmail.com
-git config --list
-npm i
-# some development.(vscode)
-# vscode => push => github auth success.(https or ssh)
 git remote set-url origin https://github.com/2f0833e717/2f0833e717.github.io.git
 git config --list
 # vim ~/.netrc
 # machine github.com
 # login username
 # password xxxxxxx
+npm i
+# develop
 npm run all
 ```
+
 ``` bash
 # ssh auth version
 # TBD:
@@ -52,22 +51,32 @@ You need to read "script" of [package.json](https://github.com/2f0833e717/2f0833
 $ git clone https://github.com/2f0833e717/2f0833e717.github.io.git -b gh-pages
 
 # git config settings
+$ git config --list
 $ git config --global user.name "2f0833e717"
 $ git config --global user.email skinoshita202001082135@gmail.com
+$ git remote set-url origin https://github.com/2f0833e717/2f0833e717.github.io.git
 $ git config --list
+
+# github auth https settings
+$ vim ~/.netrc
+machine github.com
+login username
+password xxxxxxx
 
 # install dependencies
 $ npm install
 
+# development for Github Pages
 # serve with hot reload at localhost:8080
 $ npm start
 # localhost:8080
 
-# build for production
+# build for Github Pages
 # (auto start setting => package.json => postinstall)
 $ npm run build
 
 # push for Github Pages
+# push => github auth success.(https or ssh)
 $ npm run push
 
 # deploy for Github Pages
