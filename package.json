@@ -1,13 +1,13 @@
 {
-  "name": "vuepress-theme-ououe-template",
+  "name": "2f0833e717.github.io",
   "version": "1.4.1",
-  "description": "A template for vuepress-theme-ououe",
+  "description": "vue-blog",
   "author": "2f0833e717 <skinoshita202001082135@gmail.com>",
-  "repository": "https://github.com/tolking/vuepress-theme-ououe-template",
+  "repository": "https://github.com/2f0833e717/2f0833e717.github.io/tree/gh-pages",
   "bugs": {
-    "url": "https://github.com/tolking/vuepress-theme-ououe-template/issues"
+    "url": "https://github.com/2f0833e717/2f0833e717.github.io/issues"
   },
-  "homepage": "https://github.com/tolking/vuepress-theme-ououe-template",
+  "homepage": "https://2f0833e717.github.io./",
   "doc": "https://ououe.com/lib/vuepress-theme-ououe.html",
   "keywords": [
     "vue",
@@ -17,28 +17,27 @@
     "ououe"
   ],
   "scripts": {
-    "postinstall": "npm run start",
+    "postinstall": "git config --list && npm start",
     "start": "vuepress dev blog",
     "dev": "npm start",
     "build": "vuepress build blog",
-    "deploy-fix1": "git push -d origin gh-pages",
-    "deploy-fix2": "git push origin gh-pages --force",
+    "deploy-fix1-no-use": "git push -d origin gh-pages",
+    "deploy-fix2-no-use": "git push origin gh-pages",
     "deploy-fix3": "git checkout -b gh-pages",
     "deploy-fix4": "git branch -D gh-pages",
     "deploy-fix5": "git checkout master",
     "deploy-dist": "npx gh-pages -d dist -b master",
-    "deploy": "npm run deploy-fix5 && npm run deploy-fix4 && npm run deploy-fix3 && npm run deploy-fix2 && npm run deploy-dist && npm run deploy-fix5",
+    "deploy": "npm run deploy-fix5 && npm run deploy-fix4 && npm run deploy-fix3 npm run deploy-dist && npm run deploy && npm run deploy-fix5",
     "ga": "git add .",
     "gc": "git commit -m 'commit'",
-    "gp": "git push origin master --force",
-    "gacp": "npm run ga && npm run gc && npm run gp",
+    "gp": "git push origin master",
+    "push": "npm run ga && npm run gc && npm run gp",
     "gl": "git log --all --graph --oneline",
-    "grefl": "git reflog --all",
-    "greset": "git reset --HARD @{2}",
-    "deploy-push": "npm run gacp && npm run deploy",
-    "dep": "npm run deploy-push",
-    "all": "npm run build && npm run deploy-push",
-    "allb": "bash deploy.sh"
+    "gref": "git reflog --all",
+    "greset": "git reset --HARD @{1}",
+    "dep": "npm run push-deploy",
+    "all": "npm run build && npm run push && npm run deploy",
+    "a": "npm run all"
   },
   "dependencies": {
     "vuepress": "^1.2.0",
