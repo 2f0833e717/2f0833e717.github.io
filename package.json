@@ -26,7 +26,7 @@
     "----------------02-01-build": "",
     "build": "vuepress build blog",
     "----------------02-02-push": "",
-    "gadd": "git add . && git commit -m 'commit'" ,
+    "gadd": "git add .",
     "gcm": "git commit -m 'commit'",
     "gpush-master": "git push origin master --force",
     "gpush-gh-pages": "git push origin gh-pages --force",
