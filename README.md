@@ -1,6 +1,5 @@
-12
 
-# quick start copy and paste
+# Quick Start Copy And Paste
 ``` bash
 git clone https://github.com/2f0833e717/2f0833e717.github.io.git -b gh-pages
 cd 2f0833e717.github.io/
@@ -12,16 +11,17 @@ npm i
 npm run all
 ```
 
-# vue-blog
+# VuePress-Blog
 
 The MIT License (MIT)
+
 Copyright 2020 2f0833e717 <skinoshita202001082135@gmail.com>
 
 [Github Pages Web site](https://2f0833e717.github.io./)
 
-[Github Pages Web site Build Src] master branch. (https://github.com/2f0833e717/2f0833e717.github.io/)
+[Github Pages Web site Build Src](https://github.com/2f0833e717/2f0833e717.github.io/) master branch. 
 
-[Github Pages Web site Dev Src] gh-pages branch and this web site. (https://github.com/2f0833e717/2f0833e717.github.io/tree/gh-pages)
+[Github Pages Web site Dev Src](https://github.com/2f0833e717/2f0833e717.github.io/tree/gh-pages) gh-pages branch and this web site.
 
 [Documentation](https://tolking.github.io/vuepress-theme-ououe)
 
@@ -29,7 +29,8 @@ Theme by [vuepress-theme-ououe](https://github.com/tolking/vuepress-theme-ououe)
 
 Power by [vuepress](https://github.com/vuejs/vuepress)
 
-# Development Guide (initial-develop-enviroment)
+# Development Guide
+initial-develop-enviroment
 
 You need to read "script" of [package.json](https://github.com/2f0833e717/2f0833e717.github.io/blob/gh-pages/package.json)
 
