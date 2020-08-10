@@ -1,21 +1,26 @@
 # Quick Start Copy And Paste
 ``` bash
+# https auth version
 git clone https://github.com/2f0833e717/2f0833e717.github.io.git -b gh-pages
 cd 2f0833e717.github.io/
+git config --list
 git config --global user.name "2f0833e717"
 git config --global user.email skinoshita202001082135@gmail.com
+git config --list
 npm i
 # some development.(vscode)
 # vscode => push => github auth success.(https or ssh)
-# https auth
-#   vim ~/.netrc
-#   machine github.com
-#   login username
-#   password xxxxxxx
-#   :wq
-# ssh auth
-#   TBD:
+git remote set-url origin https://github.com/2f0833e717/2f0833e717.github.io.git
+git config --list
+# vim ~/.netrc
+# machine github.com
+# login username
+# password xxxxxxx
 npm run all
+```
+``` bash
+# ssh auth version
+# TBD:
 ```
 
 # VuePress-Blog
