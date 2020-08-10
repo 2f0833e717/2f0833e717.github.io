@@ -33,7 +33,7 @@
     "gc": "git commit -m 'commit'",
     "gp": "git push origin master --force",
     "push": "npm run ga && npm run gc && npm run gp",
-    "gl": "git log --all --graph --oneline",
+    "gl": "git log -7 --graph --oneline",
     "gref": "git reflog --all",
     "greset": "git reset --HARD @{1}",
     "dep": "npm run push-deploy",
