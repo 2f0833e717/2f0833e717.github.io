@@ -22,11 +22,13 @@ Copyright 2020 2f0833e717 <<skinoshita202001082135@gmail.com>>
 
 [Github Pages Web site Dev Src](https://github.com/2f0833e717/2f0833e717.github.io/tree/gh-pages) is gh-pages branch and This web site.
 
-[Documentation](https://tolking.github.io/vuepress-theme-ououe)
+[VuePress-theme-ououe Documentation](https://tolking.github.io/vuepress-theme-ououe/guide/)
 
 Theme by [vuepress-theme-ououe](https://github.com/tolking/vuepress-theme-ououe)
 
-Power by [vuepress](https://github.com/vuejs/vuepress)
+[VuePress Documentation](https://vuepress.vuejs.org/guide/)
+
+Powered by [vuepress](https://github.com/vuejs/vuepress)
 
 # Development Guide
 

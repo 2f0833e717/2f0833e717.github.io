@@ -1,6 +1,6 @@
 {
   "name": "2f0833e717.github.io",
-  "version": "1.4.1",
+  "version": "1.0.0",
   "description": "vue-blog",
   "author": "2f0833e717 <skinoshita202001082135@gmail.com>",
   "repository": "https://github.com/2f0833e717/2f0833e717.github.io/tree/gh-pages",
@@ -8,7 +8,7 @@
     "url": "https://github.com/2f0833e717/2f0833e717.github.io/issues"
   },
   "homepage": "https://2f0833e717.github.io./",
-  "doc": "https://ououe.com/lib/vuepress-theme-ououe.html",
+  "doc": "https://github.com/2f0833e717/2f0833e717.github.io/tree/gh-pages",
   "keywords": [
     "vue",
     "vuepress",
