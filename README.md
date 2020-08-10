@@ -27,7 +27,8 @@ cd 2f0833e717.github.io/
 git config --global user.name "2f0833e717"
 git config --global user.email skinoshita202001082135@gmail.com
 npm i
-# some development.
+# some development.(vscode)
+# vscode => push => github auth success.
 npm run all
 
 # dev guide
