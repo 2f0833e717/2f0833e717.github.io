@@ -29,7 +29,7 @@
     "push": "npm run g-push-gh-pages && npm run g-push-master",
     "g-push-gh-pages": "npm run g-add-cm && git push origin gh-pages --force",
     "g-add-cm": "git add . && git commit -m 'commit'",
-    "g-push-master": "npm run g-merge && npm run g-add-cm && git push origin master --force",
+    "g-push-master": "npm run g-merge && git push origin master --force",
     "g-merge": "git checkout master && git checkout --theirs . && git checkout gh-pages",
     "----------------02-03-deploy": "",
     "deploy": "npm run deploy-dist",
