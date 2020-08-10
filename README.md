@@ -1,4 +1,4 @@
-4
+6
 
 # Github Pages Web site
 https://2f0833e717.github.io./
@@ -21,15 +21,31 @@ Power by [vuepress](https://github.com/vuejs/vuepress)
 
 
 ``` bash
+# git clone dev src
+$ git clone https://github.com/2f0833e717/2f0833e717.github.io.git -b gh-pages
+
+# git config settings
+$ git config --global user.name "2f0833e717"
+$ git config --global user.email skinoshita202001082135@gmail.com
+$ git config --list
+
 # install dependencies
+$ npm i
+# or
 $ npm install
 
 # serve with hot reload at localhost:8080
+# (auto start setting => package.json => postinstall)
+$ npm start
+# or
 $ npm run dev
 # localhost:8080
 
 # build for production
 $ npm run build
+
+# push for Github Pages
+$ npm run push
 
 # deploy for Github Pages
 $ npm run deploy
