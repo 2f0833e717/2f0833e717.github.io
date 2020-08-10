@@ -18,7 +18,7 @@
   ],
   "scripts": {
     "----------------00-Special-scripts": "",
-    "postinstall": "git config --list && git branch master && npm start",
+    "postinstall": "git config --list && git branch master && npm build",
     "start": "git branch -a && vuepress dev blog",
     "----------------01-dev": "",
     "dev": "npm start",

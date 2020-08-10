@@ -1,4 +1,4 @@
-9
+11
 
 # Github Pages Web site
 https://2f0833e717.github.io./
@@ -21,6 +21,16 @@ Power by [vuepress](https://github.com/vuejs/vuepress)
 
 
 ``` bash
+# quick start copy and paste
+git clone https://github.com/2f0833e717/2f0833e717.github.io.git -b gh-pages
+cd 2f0833e717.github.io/
+git config --global user.name "2f0833e717"
+git config --global user.email skinoshita202001082135@gmail.com
+npm i
+# some development.
+npm run all
+
+# dev guide
 # git clone dev src
 $ git clone https://github.com/2f0833e717/2f0833e717.github.io.git -b gh-pages
 
