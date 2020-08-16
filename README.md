@@ -24,7 +24,8 @@ npm run all
 
 # VuePress-Blog
 
-The MIT License (MIT)
+The CC BY-NC-SA 4.0 License(.md files & posts files & about files)
+The MIT License(program src)
 
 Copyright 2020 2f0833e717 <<skinoshita202001082135@gmail.com>>
 
